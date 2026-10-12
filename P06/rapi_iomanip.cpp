@@ -1,5 +1,3 @@
-// Merapikan keluaran dengan <iomanip>: setw (lebar kolom), left/right (rata kiri/kanan),
-// fixed dan setprecision (jumlah angka di belakang koma). Semuanya berlaku untuk cout.
 #include <iomanip>
 #include <iostream>
 #include <string>
