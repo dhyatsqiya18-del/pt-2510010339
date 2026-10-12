@@ -38,4 +38,4 @@ Folder `p05` di repository `pt-2510010339` berisi `sinilai_v04.cpp`. Lihat Modul
 
 ## Deklarasi AI
 
-Saya belajar bersama teman tidak menggunakan AI.
+Saya menggerjakan sambil diajarin teman, adapun AI yg sesekali saya pakai hanya gemini kalau memang saya bingung total.
