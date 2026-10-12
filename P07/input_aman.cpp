@@ -1,7 +1,3 @@
-// Membaca angka dengan aman. Kalau pengguna mengetik huruf, cin gagal (cin.fail() bernilai true),
-// variabelnya diisi 0, dan huruf itu tetap tertinggal di antrean sehingga cin gagal lagi selamanya.
-// Obatnya tiga langkah: cin.clear() memulihkan cin, cin.ignore(1000, '\n') membuang sisa baris,
-// lalu minta lagi. Inilah penyembuh perulangan tanpa henti dari Pertemuan 5.
 #include <iostream>
 
 using namespace std;
