@@ -21,20 +21,20 @@ keputusan atau perulangan berpasangan dengan flowchart di modul; dua program yan
 ## Kasus uji SiNilai v0.6 (`./sinilai_v06 < contoh_masukan.txt`)
 
 Data mahasiswanya sama dengan Pertemuan 6, tetapi berkasnya berisi jebakan: nama ditulis
-`siti AMINAH` dan `BUDI SANTOSO`, ada baris kosong sebelum nama Budi, ada nama `r2d2` sebelum Rina,
-ada `abc` untuk nilai mingguan Dewi, dan `120` untuk UTS Eko. Program yang benar menolak semua jebakan
+`kwon OHYUL` dan `KIM RYUL`, ada baris kosong sebelum nama kim, ada nama `r2d2` sebelum james,
+ada `abc` untuk nilai mingguan anh, dan `120` untuk UTS martin. Program yang benar menolak semua jebakan
 itu, meminta ulang, merapikan nama, dan menghasilkan laporan yang persis sama dengan v0.5:
 
 | Mahasiswa (sudah dirapikan) | Nilai akhir | Huruf | Status |
 |---|---|---|---|
-| Siti Aminah | 83.97 | A | Lulus |
-| Budi Santoso | 67.75 | C+ | Lulus |
-| Rina Wati | 49.50 | D | Belum lulus |
-| Dewi Lestari | 90.00 | A | Lulus |
-| Eko Prasetyo | 71.00 | B | Lulus |
-| Fajar Nugroho | 25.75 | E | Belum lulus |
+| kwon ohyul | 83.97 | A | Lulus |
+| kim ryul | 67.75 | C+ | Lulus |
+| james | 49.50 | D | Belum lulus |
+| anh keonho | 90.00 | A | Lulus |
+| martin edw | 71.00 | B | Lulus |
+| sean sabiru | 25.75 | E | Belum lulus |
 
-Laporan kelas: 6 mahasiswa, 4 lulus, 2 belum lulus, rata-rata 64.66, tertinggi Dewi Lestari (90.00),
+Laporan kelas: 6 mahasiswa, 4 lulus, 2 belum lulus, rata-rata 64.66, tertinggi anh keonho (90.00),
 sebaran A 2, B 1, C 1, D 1, E 1.
 
 Starter (`sinilai_v06_awal.cpp`) berjalan benar untuk masukan yang bersih, tetapi menghasilkan
@@ -46,5 +46,4 @@ Folder `p07` di repository `pt-NPM` berisi `sinilai_v06.cpp`. Lihat Modul Pertem
 
 ## Deklarasi AI
 
-Tuliskan AI yang digunakan, prompt, dan umpan balik AI
-saya tidak pakai AI saya belajar bersama dengan teman
+Saya menggerjakan sambil diajarin teman, adapun AI yg sesekali saya pakai hanya gemini kalau memang saya bingung total.
