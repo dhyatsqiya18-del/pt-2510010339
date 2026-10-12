@@ -1,5 +1,3 @@
-// switch: memilih satu dari beberapa kasus berdasarkan satu nilai bulat atau karakter.
-// Jangan lupa break di akhir setiap kasus; tanpa break, eksekusi jatuh ke kasus berikutnya.
 #include <iostream>
 
 using namespace std;
