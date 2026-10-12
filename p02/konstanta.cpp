@@ -1,6 +1,3 @@
-@@ -0,0 +1,23 @@
-// Konstanta: nilai yang tidak boleh berubah selama program berjalan.
-// Bobot penilaian mata kuliah ini sendiri dipakai sebagai contoh.
 #include <iostream>
 
 using namespace std;
@@ -18,7 +15,5 @@ int main() {
     cout << "Jumlah          : "
               << BOBOT_KEHADIRAN + BOBOT_MINGGUAN + BOBOT_UTS + BOBOT_UAS << "\n";
 
-    // Praktikum 2: hapus tanda komentar pada baris di bawah, lalu bangun ulang.
-    // BOBOT_UAS = 0.30;
     return 0;
 }
