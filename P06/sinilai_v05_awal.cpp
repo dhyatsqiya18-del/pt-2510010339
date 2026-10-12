@@ -1,7 +1,3 @@
-// SiNilai v0.5: laporan kelas. Dibangun di atas v0.4 (do-while, for, dua akumulator, rekap).
-// Yang baru: keluaran berkolom rapi (iomanip), penghitung per huruf mutu, mahasiswa tertinggi,
-// dan sebaran huruf mutu berupa batang # yang digambar dengan perulangan bersarang.
-#include <iomanip>
 #include <iostream>
 #include <string>
 
@@ -22,13 +18,12 @@ int main()
         cin >> jumlah_mahasiswa;
     } while (jumlah_mahasiswa < 1);
 
-    // TODO 1: atur cout supaya semua angka pecahan tampil dengan dua angka di belakang koma.
     std::cout << std::fixed << std::setprecision(2);
     double total_nilai = 0;
     int jumlah_lulus = 0;
-    // TODO 2: deklarasikan lima penghitung: jumlah_a, jumlah_b, jumlah_c, jumlah_d, jumlah_e (int, mulai 0).
+   
     int jumlah_a = 0, jumlah_b = 0, jumlah_c = 0, jumlah_d = 0, jumlah_e = 0;
-    // TODO 3: deklarasikan double nilai_tertinggi = -1; dan string nama_tertinggi;
+   
     double nilai_tertinggi = -1;
     string nama_tertinggi;
     for (int i = 1; i <= jumlah_mahasiswa; i++)
@@ -88,10 +83,6 @@ int main()
 
         bool lulus = nilai_akhir >= 60;
 
-        // TODO 4: ganti kartu enam baris ini dengan SATU baris berkolom:
-        //   dua spasi, nama rata kiri selebar 20, nilai_akhir rata kanan selebar 7,
-        //   dua spasi, huruf_mutu rata kiri selebar 3, lalu Lulus atau Belum lulus.
-
         cout << "\n--- Kartu Nilai Mahasiswa ---\n";
 
         cout << "  "
@@ -114,9 +105,6 @@ int main()
             jumlah_lulus++;
         }
 
-        // TODO 5: switch pada huruf_mutu[0] untuk menambah penghitung yang sesuai
-        //         ('A' jumlah_a, 'B' jumlah_b, 'C' jumlah_c, 'D' jumlah_d, default jumlah_e).
-        //         B+ dan B sama-sama masuk hitungan B; C+ dan C masuk hitungan C.
         switch (huruf_mutu[0])
         {
         case 'A':
@@ -134,7 +122,7 @@ int main()
         default:
             jumlah_e++;
         }
-        // TODO 6: kalau nilai_akhir lebih tinggi dari nilai_tertinggi, perbarui nilai_tertinggi dan nama_tertinggi.
+        
         if (nilai_akhir > nilai_tertinggi)
         {
             nilai_tertinggi = nilai_akhir;
@@ -147,14 +135,14 @@ int main()
     cout << "Lulus            : " << jumlah_lulus << "\n";
     cout << "Belum lulus      : " << jumlah_mahasiswa - jumlah_lulus << "\n";
     cout << "Rata-rata kelas  : " << total_nilai / jumlah_mahasiswa << "\n";
-    // TODO 7: cetak "Tertinggi        : " diikuti nama_tertinggi dan nilai_tertinggi dalam kurung.
+   
     cout << "Tertinggi        : " << nama_tertinggi << " (" << nilai_tertinggi << ")\n";
 
     cout << "\nSebaran huruf mutu:\n";
     for (char huruf = 'A'; huruf <= 'E'; huruf++)
     {
         int banyak = 0;
-        // TODO 8: isi banyak dari penghitung yang sesuai dengan huruf (if-else bertingkat pada huruf).
+        
         if (huruf == 'A')
         {
             banyak = jumlah_a;
@@ -176,7 +164,7 @@ int main()
             banyak = jumlah_e;
         }
         cout << huruf << " | ";
-        // TODO 9: perulangan dalam: cetak tanda # sebanyak banyak.
+        
         for (int i = 0; i < banyak; i++)
         {
             cout << "#";
