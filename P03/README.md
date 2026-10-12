@@ -20,8 +20,8 @@ Folder kode Pertemuan 3 Pemrograman Terstruktur. Buka folder ini di Visual Studi
 
 ```
 --- Kartu Nilai Mahasiswa ---
-Nama        : Siti Aminah
-NPM         : 2024010101
+Nama        : kwon ohyul
+NPM         : 2024010105
 Nilai akhir : 83.975
 Rerata polos: 85.875
 ```
