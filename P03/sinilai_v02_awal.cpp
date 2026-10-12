@@ -1,54 +1,40 @@
-@@ -0,0 +1,53 @@
-// SiNilai v0.2: menghitung nilai akhir satu mahasiswa.
-// Dibangun di atas v0.1: bagian membaca data sudah jadi, tinggal menghitung dan menampilkan.
-// Formula: nilai akhir = kehadiran x 10% + mingguan x 45% + UTS x 25% + UAS x 20%.
 #include <iostream>
 #include <string>
 #include <iomanip>
+
 using namespace std;
 
-int main() {
-    // TODO 1: deklarasikan empat konstanta bobot dari konstanta.cpp Pertemuan 2
-    //         (BOBOT_KEHADIRAN, BOBOT_MINGGUAN, BOBOT_UTS, BOBOT_UAS).
-    const double BOBOT_KEHADIRAN = 0.10;
-    const double BOBOT_MINGGUAN = 0.45;
-    const double BOBOT_UTS = 0.25;
-    const double BOBOT_UAS = 0.20;
-    string nama;
-    string npm;
-    double kehadiran = 0;
-    double mingguan = 0;
-    double uts = 0;
-    double uas = 0;
-    double nilai_akhir = 0;
-    double rata_rata = 0;
-    cout << "=== SiNilai v0.2 ===\n";
-    cout << "Nama      : ";
-    getline(cin, nama);
-    cout << "NPM       : ";
-    cin >> npm;
-    cout << "Kehadiran : ";
-    cin >> kehadiran;
-    cout << "Mingguan  : ";
-    cin >> mingguan;
-    cout << "UTS       : ";
-    cin >> uts;
-    cout << "UAS       : ";
-    cin >> uas;
+// Deklarasi konstanta bobot penilai
+const double BOBOT_TUGAS = 0.20;
+const double BOBOT_UTS   = 0.30;
+const double BOBOT_UAS   = 0.30;
+const double BOBOT_PRAK  = 0.20;
 
-    // TODO 2: hitung nilai akhir dengan formula di atas. Simpan ke variabel double nilai_akhir.
-    nilai_akhir = (kehadiran * BOBOT_KEHADIRAN) + (mingguan * BOBOT_MINGGUAN) + (uts * BOBOT_UTS) + (uas * BOBOT_UAS);
-    // TODO 3: hitung juga rata-rata sederhana keempat komponen (tanpa bobot), simpan ke rerata_polos.
-    //         Hati-hati: pembaginya jangan bilangan bulat.
-    rata_rata = (kehadiran + mingguan + uts + uas) / 4.0;
-    
-    cout << "\n--- Kartu Nilai Mahasiswa ---\n";
-    cout << "Nama        : " << nama << "\n";
-    cout << "NPM         : " << npm << "\n";
-    std::cout << std::fixed << std::setprecision(3); 
-    cout << "Nilai Akhir : " << nilai_akhir;
-    cout << "Rata Rata : " << rata_rata;
-    // TODO 4: tampilkan nilai_akhir dan rerata_polos, sejajar dengan baris di atas.
+int main() {
+    // Data Mahasiswa 1
+    string nama1, nim1;
+    double tugas1, uts1, uas1, prak1;
+
+    // Data Mahasiswa 2
+    string nama2, nim2;
+    double tugas2, uts2, uas2, prak2;
+
+    // Input Mahasiswa 1
+    getline(cin >> ws, nama1);
+    cin >> nim1 >> tugas1 >> uts1 >> uas1 >> prak1;
+
+    // Input Mahasiswa 2
+    getline(cin >> ws, nama2);
+    cin >> nim2 >> tugas2 >> uts2 >> uas2 >> prak2;
+
+    // Perhitungan Nilai Akhir menggunakan konstanta bobot
+    double nilai_akhir1 = (tugas1 * BOBOT_TUGAS) + (uts1 * BOBOT_UTS) + (uas1 * BOBOT_UAS) + (prak1 * BOBOT_PRAK);
+    double nilai_akhir2 = (tugas2 * BOBOT_TUGAS) + (uts2 * BOBOT_UTS) + (uas2 * BOBOT_UAS) + (prak2 * BOBOT_PRAK);
+
+    // Menampilkan hasil keluaran
+    cout << fixed << setprecision(3);
+    cout << "Nilai akhir " << nama1 << " (" << nim1 << ") : " << nilai_akhir1 << endl;
+    cout << "Nilai akhir " << nama2 << " (" << nim2 << ") : " << nilai_akhir2 << endl;
 
     return 0;
 }
