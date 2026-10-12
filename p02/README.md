@@ -40,5 +40,4 @@ UAS       : 80
 Folder `p02` di repository `pt-NPM` berisi `sinilai_v01.cpp`, dan  `README.md`. Lihat Modul Pertemuan 2 bagian E.
 
 ## Deklarasi AI
-saya belajar bareng bersama teman dan tidak menunggunakan AI
-Tuliskan AI yang digunakan, prompt, dan umpan balik AI
+Saya menggerjakan sambil diajarin teman, adapun AI yg sesekali saya pakai hanya gemini kalau memang saya bingung total.
