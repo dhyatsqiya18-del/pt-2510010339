@@ -1,4 +1,3 @@
-@@ -0,0 +1,36 @@
 # P03 Ekspresi dan Operator: Menghitung Nilai Akhir
 
 Folder kode Pertemuan 3 Pemrograman Terstruktur. Buka folder ini di Visual Studio Code
@@ -7,7 +6,7 @@ Folder kode Pertemuan 3 Pemrograman Terstruktur. Buka folder ini di Visual Studi
 ## Isi
 
 | Berkas | Kegunaan |
-|---|---|
+| --- | --- |
 | `operator.cpp` | Lima operator aritmetika pada int dan double; pembagian bilangan bulat dan bedanya dengan Python |
 | `prioritas.cpp` | Prioritas dan asosiativitas operator, operator gabungan `+=` dan `++`. Tebak dulu, baru jalankan |
 | `campuran.cpp` | Ekspresi campuran int dan double: tiga cara menghitung rata-rata, hanya satu yang benar |
@@ -18,20 +17,18 @@ Folder kode Pertemuan 3 Pemrograman Terstruktur. Buka folder ini di Visual Studi
 
 ## Keluaran SiNilai v0.2 yang diharapkan (bagian akhir)
 
-```
 --- Kartu Nilai Mahasiswa ---
 Nama        : kwon ohyul
-NPM         : 2024010105
+NPM         : 2510010339
 Nilai akhir : 83.975
 Rerata polos: 85.875
-```
 
 Nilai akhir = 100 x 0,10 + 85,5 x 0,45 + 78 x 0,25 + 80 x 0,20 = 10 + 38,475 + 19,5 + 16 = 83,975.
 
 ## Yang dikumpulkan mahasiswa
 
-Folder `p03` di repository `pt-NPM` berisi `sinilai_v02.cpp` dan  `README.md`. Lihat Modul Pertemuan 3 bagian E.
+Folder `p03` di repository `pt-2510010339` berisi `sinilai_v02.cpp` dan `README.md`. Lihat Modul Pertemuan 3 bagian E.
 
 ## Deklarasi AI
 
-Tuliskan AI yang digunakan, prompt, dan umpan balik AI
+Saya menggerjakan sambil diajarin teman, adapun AI yg sesekali saya pakai hanya gemini kalau memang saya bingung total.
