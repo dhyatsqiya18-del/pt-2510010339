@@ -19,16 +19,16 @@ Folder kode Pertemuan 2 Pemrograman Terstruktur. Buka folder ini di Visual Studi
 
 ```
 === SiNilai v0.1 ===
-Nama      : Siti Aminah
-NPM       : 2024010101
+Nama      : kwon ohyul
+NPM       : 2024010105
 Kehadiran : 100
 Mingguan  : 85.5
 UTS       : 78
 UAS       : 80
 
 --- Kartu Data Mahasiswa ---
-Nama      : Siti Aminah
-NPM       : 2024010101
+Nama      : kwon ohyul
+NPM       : 2024010105
 Kehadiran : 100
 Mingguan  : 85.5
 UTS       : 78
