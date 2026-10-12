@@ -1,6 +1,3 @@
-// SiNilai v0.4: memproses banyak mahasiswa sekaligus dan mencetak rekap kelas.
-// Dibangun di atas v0.3: seluruh perhitungan satu mahasiswa dibungkus perulangan.
-// Kepala perulangan, akumulator, dan rekap adalah bagian yang harus kamu lengkapi.
 #include <iostream>
 #include <string>
 
@@ -14,19 +11,16 @@ int main() {
 
     int jumlah_mahasiswa = 0;
     cout << "=== SiNilai v0.4 ===\n";
-    // TODO 1: bungkus dua baris di bawah dengan do-while supaya pertanyaan diulang
-    //         selama jumlah_mahasiswa < 1. Badan harus jalan paling sedikit sekali.
+    
     do {
         cout << "Jumlah mahasiswa (paling sedikit 1): ";
         cin >> jumlah_mahasiswa;
     } while (jumlah_mahasiswa < 1);
 
-    // TODO 2: deklarasikan dua akumulator di sini, sebelum perulangan dimulai:
-    //         double total_nilai = 0; dan int jumlah_lulus = 0;
     double total_nilai = 0;
     int jumlah_lulus = 0;
 
-    for (int i = 1; i <= jumlah_mahasiswa; i++) { // TODO 3: ganti kurung kurawal pembuka ini dengan kepala for yang menghitung i dari 1 sampai jumlah_mahasiswa
+    for (int i = 1; i <= jumlah_mahasiswa; i++) { 
         string nama;
         string npm;
         double kehadiran = 0;
@@ -34,9 +28,9 @@ int main() {
         double uts = 0;
         double uas = 0;
 
-        cout << "\n--- Mahasiswa ke-" << i << " dari " << jumlah_mahasiswa << " ---\n";   // ganti angka 1 dengan i
+        cout << "\n--- Mahasiswa ke-" << i << " dari " << jumlah_mahasiswa << " ---\n";   
         cout << "Nama      : ";
-        getline(cin >> ws, nama);   // cin >> ws membuang sisa Enter dari angka sebelumnya
+        getline(cin >> ws, nama);   
         cout << "NPM       : ";
         cin >> npm;
         cout << "Kehadiran : ";
@@ -101,15 +95,7 @@ int main() {
             cout << "Status      : Belum lulus\n";
         }
         total_nilai += nilai_akhir;
-        // TODO 4: tambahkan nilai_akhir ke total_nilai, dan tambah jumlah_lulus bila lulus.
     }
-
-    // TODO 5: cetak rekap kelas dengan format berikut (sejajar seperti kartu):
-    //   === Rekap Kelas ===
-    //   Jumlah mahasiswa : ...
-    //   Lulus            : ...
-    //   Belum lulus      : ...
-    //   Rata-rata kelas  : ...   (total_nilai dibagi jumlah_mahasiswa)
 
     cout << "\n=== Rekap Kelas ===\n";
     cout << "Jumlah mahasiswa : " << jumlah_mahasiswa << "\n";
