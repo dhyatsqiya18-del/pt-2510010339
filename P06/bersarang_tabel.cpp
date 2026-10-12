@@ -1,6 +1,3 @@
-// Perulangan bersarang: satu perulangan di dalam perulangan lain.
-// Perulangan luar memilih baris, perulangan dalam mengisi kolom pada baris itu.
-// setw dari <iomanip> membuat setiap angka menempati lebar yang sama sehingga kolomnya lurus.
 #include <iomanip>
 #include <iostream>
 
