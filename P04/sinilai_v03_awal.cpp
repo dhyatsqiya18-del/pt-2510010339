@@ -1,6 +1,3 @@
-// SiNilai v0.3: nilai akhir diubah menjadi huruf mutu dan keterangan kelulusan.
-// Dibangun di atas v0.2. Tabel konversi mengikuti peraturan akademik (lihat kontrak kuliah):
-//   80-100 A | 75-79,9 B+ | 70-74,9 B | 65-69,9 C+ | 60-64,9 C | 40-59,9 D | 0-39,9 E
 #include <iostream>
 #include <string>
 
@@ -38,8 +35,6 @@ int main()
 
     double nilai_akhir = kehadiran * BOBOT_KEHADIRAN + mingguan * BOBOT_MINGGUAN + uts * BOBOT_UTS + uas * BOBOT_UAS;
 
-    // TODO 1: deklarasikan string huruf_mutu, lalu isi dengan if-else bertingkat sesuai tabel di atas.
-    //         Mulai dari batas tertinggi (80) turun ke bawah. Pikirkan kasus batas: 79.9, 80, 59.9, 60.
     if (nilai_akhir >= 80)
     {
         huruf_mutu = "A";
@@ -69,15 +64,11 @@ int main()
         huruf_mutu = "E";
     }
 
-    // TODO 2: deklarasikan bool lulus. Aturan SiNilai: lulus bila huruf mutu minimal C
-    //         (dengan kata lain, nilai_akhir >= 60).
     if (nilai_akhir >= 60)
     {
         lulus = true;
     }
-    // TODO 3: deklarasikan string keterangan. Isi dengan switch pada huruf pertama huruf_mutu
-    //         (huruf_mutu[0] bertipe char): 'A' Sangat baik, 'B' Baik, 'C' Cukup,
-    //         'D' Kurang, 'E' Sangat kurang. Ingat break.
+   
     switch (huruf_mutu[0])
     {
     case 'A':
@@ -104,7 +95,6 @@ int main()
     cout << "Huruf mutu  : " << huruf_mutu << "\n";
     cout << "Keterangan  : " << keterangan << "\n";
     cout << "Status      : " << (lulus ? "Lulus" : "Belum lulus") << "\n";
-    // TODO 4: tampilkan Huruf mutu, Keterangan, dan Status (Lulus / Belum lulus) sejajar.
 
     return 0;
 }
