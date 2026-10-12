@@ -1,6 +1,3 @@
-@@ -0,0 +1,22 @@
-// Lima operator aritmetika, dicoba pada bilangan bulat dan pecahan.
-// Perhatikan baris pembagian: hasilnya bergantung pada tipe yang dibagi, bukan pada nilainya.
 #include <iostream>
 
 using namespace std;
