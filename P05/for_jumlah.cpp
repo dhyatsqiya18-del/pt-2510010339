@@ -1,5 +1,3 @@
-// Pola akumulator: satu variabel penampung yang dimulai dari 0 lalu ditambah sedikit demi sedikit
-// di setiap putaran. Hampir semua laporan (total, rata-rata, jumlah lulus) memakai pola ini.
 #include <iostream>
 
 using namespace std;
