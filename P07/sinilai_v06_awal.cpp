@@ -1,7 +1,3 @@
-// SiNilai v0.6: v0.5 yang tangguh terhadap masukan salah. Dibangun di atas v0.5 (laporan kelas).
-// Yang baru: angka dibaca dengan aman (cin.fail, clear, ignore), nama divalidasi dan dirapikan
-// huruf per huruf. Perhatikan: pola pembacaan aman ditulis berulang untuk empat komponen;
-// itu sengaja, supaya di Pertemuan 9 kamu merasakan sendiri gunanya fungsi.
 #include <cctype>
 #include <iomanip>
 #include <iostream>
@@ -26,12 +22,8 @@ int main()
         cout << "Input tidak valid. Masukkan jumlah mahasiswa: ";
         cin >> jumlah_mahasiswa;
     }
-    // TODO 1: do-while di atas berputar tanpa henti kalau pengguna mengetik huruf (cin gagal, isi jadi 0).
-    //         Ganti dengan pola input_aman.cpp: baca sekali, lalu while (cin.fail() || jumlah_mahasiswa < 1)
-    //         { cin.clear(); cin.ignore(1000, '\n'); minta lagi; }.
-
-    cin.ignore(1000, '\n'); // buang Enter yang tersisa setelah angka, supaya getline nama tidak memungutnya
-
+   
+    cin.ignore(1000, '\n'); 
     cout << fixed << setprecision(2);
 
     double total_nilai = 0;
@@ -57,8 +49,7 @@ int main()
 
         cout << "Nama      : ";
         getline(cin, nama);
-        // TODO 2: bungkus pembacaan nama dengan do-while seperti validasi_nama.cpp: ulangi selama nama
-        //         kosong atau hanya spasi, atau mengandung angka. Periksa huruf per huruf dengan for.
+       for.
         bool valid;
 
         do
@@ -85,7 +76,7 @@ int main()
             }
 
         } while (!valid);
-        // TODO 3: rapikan nama seperti rapikan_nama.cpp: huruf pertama tiap kata besar, sisanya kecil.
+       
         int panjang = nama.length();
         bool awal_kata = true;
         for (int i = 0; i < panjang; i++)
@@ -110,7 +101,7 @@ int main()
 
         cout << "Kehadiran : ";
         cin >> kehadiran;
-        // TODO 4: tambahkan while (cin.fail() || kehadiran < 0 || kehadiran > 100) { clear; ignore; minta lagi; }
+       
         while (cin.fail() || kehadiran < 0 || kehadiran > 100)
         {
             cin.clear();
@@ -145,10 +136,8 @@ int main()
             cout << "UAS tidak valid. Masukkan lagi: ";
             cin >> uas;
         }
-        // TODO 5: ulangi pola TODO 4 untuk mingguan, uts, dan uas (ya, empat kali; catat rasanya).
 
-        cin.ignore(1000, '\n'); // buang Enter setelah uas, supaya getline nama mahasiswa berikutnya bersih
-
+        cin.ignore(1000, '\n');
         double nilai_akhir = kehadiran * BOBOT_KEHADIRAN + mingguan * BOBOT_MINGGUAN + uts * BOBOT_UTS + uas * BOBOT_UAS;
 
         string huruf_mutu;
