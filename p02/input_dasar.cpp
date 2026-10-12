@@ -1,6 +1,3 @@
-@@ -0,0 +1,23 @@
-// Membaca input dari pengguna dengan cin.
-// Coba jalankan dengan nama satu kata, lalu dengan nama dua kata. Amati bedanya.
 #include <iostream>
 #include <string>
 
