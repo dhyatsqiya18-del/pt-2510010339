@@ -13,12 +13,12 @@ int main() {
     cout << "Huruf pertama : " << nama_lengkap[0] << "\n";
     cout << "Huruf terakhir: " << nama_lengkap[nama_lengkap.length() - 1] << "\n";
 
-    string a = "James";
-    string b = "James";
+    string a = "Kim";
+    string b = "Kim";
     cout << "\nPerbandingan (1 berarti true):\n";
-    cout << "James == James   : " << (a == "james") << "\n";
-    cout << "James == james   : " << (a == b) << "   (huruf besar dan kecil berbeda)\n";
-    cout << "ohyul < James  : " << (nama_belakang < a) << "   (urutan kamus: A sebelum B)\n";
+    cout << "Kim == Kim   : " << (a == "kim") << "\n";
+    cout << "Kim == kim   : " << (a == b) << "   (huruf besar dan kecil berbeda)\n";
+    cout << "ohyul < Kim  : " << (nama_belakang < a) << "   (urutan kamus: A sebelum B)\n";
     cout << "Zafer < ane : " << (string("Zafer") < "ane") << "   (semua huruf besar berada sebelum huruf kecil)\n";
 
     string kosong;
