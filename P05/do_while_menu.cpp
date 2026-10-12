@@ -1,6 +1,3 @@
-// do-while: badan dijalankan dulu paling sedikit sekali, syaratnya baru diperiksa di akhir.
-// Cocok untuk menu: tampilkan dulu, kerjakan pilihannya, baru tanya apakah sudah mau berhenti.
-// Bagian switch-nya sama dengan switch_menu.cpp Pertemuan 4.
 #include <iostream>
 
 using namespace std;
