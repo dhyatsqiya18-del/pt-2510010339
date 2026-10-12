@@ -19,7 +19,7 @@ Folder kode Pertemuan 3 Pemrograman Terstruktur. Buka folder ini di Visual Studi
 
 --- Kartu Nilai Mahasiswa ---
 Nama        : kwon ohyul
-NPM         : 2510010339
+NPM         : 2024010105
 Nilai akhir : 83.975
 Rerata polos: 85.875
 
