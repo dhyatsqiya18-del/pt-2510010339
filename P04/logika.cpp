@@ -1,12 +1,10 @@
-// Operator pembanding dan logika: menggabungkan beberapa syarat menjadi satu keputusan.
-// Contoh: syarat mengikuti UAS adalah presensi minimal 70 DAN tugas sudah dikumpulkan.
 #include <iostream>
 
 using namespace std;
 
 int main() {
     double presensi = 0;
-    int tugas_dikumpulkan = 0;     // 1 berarti sudah, 0 berarti belum
+    int tugas_dikumpulkan = 0;   
     cout << "Presensi (0-100)          : ";
     cin >> presensi;
     cout << "Tugas dikumpulkan? (1/0)  : ";
