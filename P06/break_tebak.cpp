@@ -1,5 +1,3 @@
-// break: keluar dari perulangan lebih awal, sebelum syaratnya sempat salah.
-// Pemain punya paling banyak 5 kesempatan menebak; begitu benar, tidak perlu menunggu kesempatan habis.
 #include <iostream>
 
 using namespace std;
