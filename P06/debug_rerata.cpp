@@ -1,7 +1,3 @@
-// Latihan debugger: program ini membangun bersih tetapi rata-ratanya salah.
-// Jangan dibaca sampai ketemu; jalankan dengan debugger, pasang breakpoint di baris total += nilai,
-// pantau i, nilai, dan total, lalu temukan sendiri di putaran ke berapa sesuatu tidak beres.
-// Masukan uji: 3 nilai, yaitu 80, 70, 90. Rata-rata yang benar 80.
 #include <iostream>
 
 using namespace std;
