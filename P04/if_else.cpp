@@ -1,4 +1,3 @@
-// if-else dua cabang: tepat satu dari dua blok yang dijalankan, tidak pernah keduanya.
 #include <iostream>
 
 using namespace std;
