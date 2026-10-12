@@ -1,5 +1,3 @@
-// continue: lewati sisa badan untuk putaran ini, langsung ke putaran berikutnya.
-// Daftar remediasi hanya memuat mahasiswa yang nilainya di bawah 60; yang lain dilewati.
 #include <iostream>
 
 using namespace std;
