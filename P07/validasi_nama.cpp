@@ -1,5 +1,3 @@
-// Meminta nama sampai sah: tidak kosong, bukan hanya spasi, dan tidak mengandung angka.
-// do-while (tanya dulu, periksa kemudian) dibungkus dengan pemeriksaan huruf per huruf.
 #include <cctype>
 #include <iostream>
 #include <string>
