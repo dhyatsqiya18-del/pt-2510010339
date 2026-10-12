@@ -1,5 +1,3 @@
-// Menelusuri string huruf per huruf dengan perulangan for: posisi 0 sampai length() - 1.
-// Setiap nama[i] bertipe char, jadi bisa dibandingkan dengan 'a' dan diubah dengan toupper.
 #include <cctype>
 #include <iostream>
 #include <string>
