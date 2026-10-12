@@ -1,5 +1,3 @@
-// while: mengulang selama syaratnya benar; jumlah putaran tidak diketahui sejak awal.
-// Pengguna memasukkan nilai satu per satu, dan angka negatif menjadi tanda berhenti (sentinel).
 #include <iostream>
 
 using namespace std;
