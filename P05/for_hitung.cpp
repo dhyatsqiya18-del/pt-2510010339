@@ -1,5 +1,3 @@
-// for: mengulang sebanyak yang sudah diketahui sejak awal.
-// Kepala for punya tiga bagian yang dipisah titik koma: awal; syarat; langkah.
 #include <iostream>
 
 using namespace std;
