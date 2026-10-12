@@ -1,6 +1,3 @@
-@@ -0,0 +1,23 @@
-// Urutan evaluasi: prioritas (mana yang dikerjakan dulu) dan asosiativitas (dari kiri atau dari kanan).
-// Tebak dulu setiap hasilnya sebelum menjalankan program.
 #include <iostream>
 
 using namespace std;
@@ -15,10 +12,10 @@ int main() {
     cout << "17 % 5 * 2    = " << 17 % 5 * 2 << "\n";
 
     int hitung = 10;
-    hitung += 5;     // sama dengan hitung = hitung + 5
-    hitung -= 3;     // sama dengan hitung = hitung - 3
-    hitung *= 2;     // sama dengan hitung = hitung * 2
-    hitung++;        // sama dengan hitung = hitung + 1
+    hitung += 5;     
+    hitung -= 3;     
+    hitung *= 2;     
+    hitung++;        
     cout << "hitung        = " << hitung << "\n";
     return 0;
 }
