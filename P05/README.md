@@ -6,7 +6,7 @@ di modul (Gambar 1 sampai 5); perhatikan panah yang kembali ke atas, itulah peru
 ## Isi
 
 | Berkas | Kegunaan |
-|---|---|
+| --- | --- |
 | `for_hitung.cpp` | for dengan jumlah putaran yang diketahui; coba ubah `<=` menjadi `<` |
 | `for_jumlah.cpp` | Pola akumulator: total dan rata-rata dari n nilai; coba masukkan 0 |
 | `while_sentinel.cpp` | while dengan angka negatif sebagai tanda berhenti; jumlah putaran tidak diketahui |
@@ -18,7 +18,7 @@ di modul (Gambar 1 sampai 5); perhatikan panah yang kembali ke atas, itulah peru
 ## Kasus uji SiNilai v0.4 (`./sinilai_v04 < contoh_masukan.txt`)
 
 | Mahasiswa | Komponen | Nilai akhir | Huruf | Status |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | kwon ohyul | 100, 85.5, 78, 80 | 83.975 | A | Lulus |
 | kim ryul | 80, 70, 65, 60 | 67.75 | C+ | Lulus |
 | james | 60, 50, 40, 55 | 49.5 | D | Belum lulus |
@@ -34,9 +34,8 @@ menjadi 0; obatnya dibahas di Pertemuan 7).
 
 ## Yang dikumpulkan mahasiswa
 
-Folder `p05` di repository `pt-NPM` berisi `sinilai_v04.cpp`. Lihat Modul Pertemuan 5 bagian E.
+Folder `p05` di repository `pt-2510010339` berisi `sinilai_v04.cpp`. Lihat Modul Pertemuan 5 bagian E.
 
 ## Deklarasi AI
 
-Tuliskan AI yang digunakan, prompt, dan umpan balik AI
 Saya belajar bersama teman tidak menggunakan AI.
