@@ -1,17 +1,14 @@
-@@ -0,0 +1,26 @@
-// Lima tipe data yang kita pakai sepanjang semester.
-// Bangun, jalankan, lalu ubah nilainya dan lihat apa yang berubah.
 #include <iostream>
 #include <string>
 
 using namespace std;
 
 int main() {
-    int jumlah_mahasiswa = 32;          // bilangan bulat
-    double nilai_uts = 78.5;            // bilangan pecahan
-    char huruf_mutu = 'B';              // satu karakter, diapit kutip tunggal
-    bool lulus = true;                  // benar atau salah
-    string nama = "Siti Aminah";   // teks, diapit kutip ganda
+    int jumlah_mahasiswa = 32;          
+    double nilai_uts = 78.5;            
+    char huruf_mutu = 'B';              
+    bool lulus = true;                  
+    string nama = "Siti Aminah";  
 
     cout << "Jumlah mahasiswa : " << jumlah_mahasiswa << "\n";
     cout << "Nilai UTS        : " << nilai_uts << "\n";
