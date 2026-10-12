@@ -19,9 +19,9 @@ di modul (Gambar 1 sampai 5); perhatikan panah yang kembali ke atas, itulah peru
 
 | Mahasiswa | Komponen | Nilai akhir | Huruf | Status |
 |---|---|---|---|---|
-| Siti Aminah | 100, 85.5, 78, 80 | 83.975 | A | Lulus |
-| Budi Santoso | 80, 70, 65, 60 | 67.75 | C+ | Lulus |
-| Rina Wati | 60, 50, 40, 55 | 49.5 | D | Belum lulus |
+| kwon ohyul | 100, 85.5, 78, 80 | 83.975 | A | Lulus |
+| kim ryul | 80, 70, 65, 60 | 67.75 | C+ | Lulus |
+| james | 60, 50, 40, 55 | 49.5 | D | Belum lulus |
 
 Rekap kelas: 3 mahasiswa, 2 lulus, 1 belum lulus, rata-rata kelas 67.075.
 Jumlah mahasiswa 0 atau negatif harus ditanya ulang (do-while).
