@@ -1,5 +1,3 @@
-// if-else bertingkat: syarat diperiksa berurutan dari atas; cabang pertama yang benar dijalankan,
-// sisanya dilewati. Urutan syarat menentukan hasilnya.
 #include <iostream>
 
 using namespace std;
