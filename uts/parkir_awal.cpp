@@ -1,34 +1,19 @@
-#include <iostream>
-#include <string>
-#include <cctype>
-using namespace std;
-
-int main() {
-    string plat;
-
-    bool plat_valid = false;
-    do {
-        cout << "Plat nomor : ";
-        getline(cin, plat);
-
-        bool hanya_spasi = true;
-        for (char c : plat) {
-            if (c != ' ') {
-                hanya_spasi = false;
-                break;
-            }
+string plat;
+bool platValid;
+do {
+    cout << "Plat nomor : ";
+    getline(cin, plat);
+    platValid = false;
+    for (size_t k = 0; k < plat.size(); k++) {
+        if (!isspace(static_cast<unsigned char>(plat[k]))) {
+            platValid = true;
         }
+    }
+    if (!platValid) {
+        cout << "Plat tidak boleh kosong.\n";
+    }
+} while (!platValid);
 
-        if (plat.empty() || hanya_spasi) {
-            cout << "Plat tidak boleh kosong." << endl;
-        } else {
-            plat_valid = true;
-            for (size_t i = 0; i < plat.length(); ++i) {
-                plat[i] = toupper(plat[i]);
-            }
-        }
-    } while (!plat_valid);
-
-    cout << "Plat tersimpan: " << plat << endl;
-    return 0;
+for (size_t k = 0; k < plat.size(); k++) {
+    plat[k] = static_cast<char>(toupper(static_cast<unsigned char>(plat[k])));
 }
