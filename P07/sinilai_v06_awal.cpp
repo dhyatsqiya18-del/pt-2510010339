@@ -12,14 +12,14 @@ int main()
     const double BOBOT_UTS = 0.25;
     const double BOBOT_UAS = 0.20;
 
-    int jumlah_mahasiswa = 0;
-    cout << "=== SiNilai v0.6 ===\n";
+        cout << "=== SiNilai v0.6 ===\n";
+    cout << "Jumlah mahasiswa (paling sedikit 1): ";
+    cin >> jumlah_mahasiswa;
     while (cin.fail() || jumlah_mahasiswa < 1)
     {
         cin.clear();
         cin.ignore(1000, '\n');
-
-        cout << "Input tidak valid. Masukkan jumlah mahasiswa: ";
+        cout << "Harus bilangan bulat paling sedikit 1. Coba lagi: ";
         cin >> jumlah_mahasiswa;
     }
    
